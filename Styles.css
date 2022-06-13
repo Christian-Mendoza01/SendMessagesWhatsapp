@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #6c132b;
+}
+
+.formulario {
+    width: 500px;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 180px;
+    padding: 20px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    background-color: rgba(236, 236, 236, 0.9);
+    
+
+}
+
+.textarea {
+    padding-left: 15px;
+    width: 100%;
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+    background: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    font-size: 1.3em;
+    margin-bottom: 30px;
+    
+}
+
+.formulario__label1{
+    padding-left: 15px;
+    padding-bottom: 100px;
+    position: absolute;
+    margin-top: -85px;
+    z-index: -20;
+    color: rgba(0, 0, 0, 0.5);
+    transition: all 0.2s;
+    display: block;
+    transform: translateY(-1.65em);
+}
+
+
+
+.formulario__titulo {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-left: 1%;
+    color: black;
+}
+
+.formulario__input, .formulario__label,
+.pruebafom {
+    width: 100%;
+}
+.formulario__input {
+    padding: 20px;
+    background: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    margin-bottom: 40px;
+    font-size: 1.3em;
+}
+
+
+.formulario__label {
+    padding-left: 15px;
+    position: absolute;
+    margin-top: -85px;
+    z-index: -20;
+    color: rgba(0, 0, 0, 0.5);
+    transition: all 0.2s;
+    
+}
+
+
+.pruebafom {
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 20px 20px;
+    cursor: pointer;
+    border: none;
+    font-size: 1.1em;
+    
+    
+}
+
+.textarea:focus {
+    outline: 1px solid
+    rgba(0, 0, 0, 0.7);
+
+}
+
+.formulario__input:focus {
+    outline: 1px solid
+    rgba(0, 0, 0, 0.7);
+}
+.formulario__input:focus + 
+.formulario__label {
+    margin-top: -130px;
+
+}
+
+
+ /*this part change to static and move text */
+
+
+
+.textarea:focus + 
+.formulario__label1 {
+    margin-top: -130px;
+
+}
+
+.fijar {
+    margin-top:  -130px;
+}
+
+.fijar1 {
+    margin-top:  -130px;
+}
+
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+
+}
+
+
+img {
+    width: 400px;
+    margin: auto;
+    position: fixed;
+    top: 0%; 
+    padding: 10px;
+    margin-left: -1%;
+
+        
+}
+
+
+
+div#contacto {
+
+    width: 100%;
+    text-align: center;
+    margin: 55px;
+    margin-left: auto;
+    margin-bottom: 5%;
+    color: rgb(12, 12, 12);
+    flex-direction: column;
+
+}
+
+.coloref {
+    color: rgb(155, 120, 10);
+}
+
